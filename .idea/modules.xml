@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mokito.iml" filepath="$PROJECT_DIR$/.idea/modules/mokito.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mokito_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mokito_main.iml" group="mokito" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mokito_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mokito_test.iml" group="mokito" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mokito-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/mokito-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mokito-sample_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mokito-sample_main.iml" group="mokito-sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mokito-sample_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mokito-sample_test.iml" group="mokito-sample" />
     </modules>
   </component>
 </project>
