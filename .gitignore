@@ -3,7 +3,6 @@ out/
 build/
 
 # gradle defs
-.gradle/
 
 # user spec defs
 .idea/workspace.xml
