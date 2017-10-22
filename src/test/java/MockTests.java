@@ -50,8 +50,9 @@ public class MockTests {
         assertEquals("Hello", userOutput.getName());
 
         // 内部リポジトリのコールを確認
-        verify(userRepository).storeUser(userInput);
-        verify(userRepository).findUser(1);
+        verify(userRepository, times(1)).storeUser(userInput);
+        verify(userRepository, atMost(1)).findUser(1);
+        verify(userRepository, never()).removeUser(anyInt());
     }
 
 }

@@ -3,6 +3,7 @@ import java.util.Map;
 
 public class UserRepositoryImpl implements UserRepository {
 
+    /** InMemory Store */
     private Map<Integer, User> userMap = new HashMap<>();
 
     @Override
@@ -15,6 +16,12 @@ public class UserRepositoryImpl implements UserRepository {
     public User findUser(int userId) {
         System.out.println("repository findUser");
         return this.userMap.get(userId);
+    }
+
+    @Override
+    public void removeUser(int userId) {
+        System.out.println("repository removeUser");
+        this.userMap.remove(userId);
     }
 
 }
