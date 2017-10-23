@@ -1,10 +1,12 @@
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Spy;
 import org.mockito.junit.MockitoJUnit;
+import org.mockito.junit.MockitoJUnitRunner;
 import org.mockito.junit.MockitoRule;
 
 import static org.junit.Assert.*;
@@ -14,10 +16,8 @@ import static org.mockito.Mockito.*;
  * Mockitoを用いたテスト実装
  *
  */
+@RunWith(MockitoJUnitRunner.Silent.class)
 public class MockTests {
-
-    @Rule
-    public MockitoRule mockito = MockitoJUnit.rule(); // Need to be public
 
     /** テスト対象のサービス実装 */
     @Spy
